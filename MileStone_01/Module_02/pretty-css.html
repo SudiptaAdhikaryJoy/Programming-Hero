@@ -6,24 +6,81 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Explore CSS Today</title>
     <style>
+        /* styling p tag using color*/
         p{
             color:red;
+            background-color: indigo;
+            height: 50px;
+            /* % is responsive */
+            width: 50%;
+            font-size: 20px;
         }
-
+        /* styling h1 tag using color */
         h1{
             color: blue;
         }
+        
+        /* styling h4 tag using color and background-color */
+        h4{
+            color: burlywood;
+        }
+
+        #festival{
+            background-color:black;
+        }
+
+        /* styling h5 with the help of id and classes */
+
+        .offer{
+            color: #2d4934;
+        }
+
+        .replace{
+            background-color: crimson;
+        }
+
+
+
+
     </style>
 </head>
 <body>
+    <!-- header tag -->
     <h1>I'm exploring CSS.</h1>
 
+    <!-- paragraph tag -->
     <p>Hello world</p>
     <p>Where are you?</p>
     <p>I want to eat Fuchka.</p>
     <p>I want a new iPad Pro.</p>
     <p>I want a new DSLR camera.</p>
     <p>I want to go for Manali</p>
+    
+    
+    <!-- header tag -->
+    <h3>Amazon Great Indian Festival.</h3>
+
+    <!-- header h4 tag using id-->
+    
+    <h4 id="festival">This is the festival deal offer!</h4>
+    <h4>You can come and get the offer!</h4>
+    <h4 id="festival">Hurry Up!</h4>
+    <h4>Limited Offer are being available for this festival!</h4>
+
+    <hr>
+
+    <!-- header h3 property using class -->
+    <h5 class="offer">The offers are 80% off!</h5>
+    <h5 class="offer replace">Buy one Get two free!</h5>
+    <h5 class="replace">Replacing offer also available!</h5>
+    <h5 class="offer"> On Groceries 50% off and free shopping bag would be there!</h5>
+    <h5 class="replace">No shipping charge.</h5>
+
+    <!-- using class into the unordered list -->
+    <ul>
+        <li class="offer">Food Offer</li>
+        <li class="replace">Medicine Offer</li>
+    </ul>
     
 </body>
 </html>
