@@ -1,0 +1,15 @@
+h1{
+    color: darkseagreen;
+}
+
+p{
+    color: red;
+}
+
+small{
+    display: block;
+}
+
+h3{
+    display:inline;
+}
