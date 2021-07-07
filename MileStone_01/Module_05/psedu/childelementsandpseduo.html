@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* pseduo class */
+        h1{
+            color: royalblue;
+        }
+        /*note:1- we can use hover ,when we pointing an element and we can change the color and its background and many more.  */
+        h1:hover{
+            color: skyblue;
+            background-color: coral;
+            /* padding: 50px;
+            margin: 50px; */
+            /* font-size: 50px; */
+            font-weight: 700;
+        }
+        /* note-2: we can use focus when we try to focusing some text and other things */
+        .middle-person:focus{
+            color: blue;
+            font-weight: 800;
+        }
+
+        /* note-3: when we visited a website then automatically the color will be show what we are putting in our pseduo class. */
+        a:visited{
+            color: yellowgreen;
+            
+        }
+
+         button:hover{
+            width: 300px;
+            height: 300px;
+        } 
+
+        /* note: 4: using child class we can point out the element and we can put the things even(2n) or odd(2n+1) number of elements using formula. In pseduo class we can use (:)/ single dot elements*/
+        li:first-child{
+            color: burlywood;
+        }
+
+        li:last-child{
+            background-color: red;
+        }
+
+        li:nth-child(2n){
+            color: green;
+        }
+
+        li:nth-child(2n+1){
+            background-color: yellow;
+        }
+
+        /* note:5- pseduo element we can use (::)/ double dot elements */
+        h3::before{
+            content: 'hello ';
+        }
+
+        /* h3::after{
+            content: ' gello';
+        } */
+
+        .middle-person::after{
+            content: ' gello';
+        }
+
+        
+    </style>
+</head>
+<body>
+    <h1>this is normal</h1>
+
+    <input type="text">
+    <input class="middle-person" type="text">
+    <input type="text">
+    <br>
+
+    <a href="https://www.google.com">Google</a>
+    <a href="https://github.com/SudiptaAdhikaryJoy">github a jaw</a>
+<br>
+
+    <button>click me</button>
+
+    <br>
+
+   <ul>
+       <li>alia</li>
+       <li>dalia</li>
+       <li>maria</li>
+       <li>faria</li>
+       <li>chalia</li>
+       <li>calia</li>
+       <li>karia</li>
+   </ul>
+
+   <br>
+
+   <h3>middle size header - 1</h3>
+   <h3 class="middle-person">middle size header - 2</h3>
+   <h3 class="middle-person">middle size header - 3</h3>
+   <h3>middle size header - 4</h3>
+   <h3 class="middle-person">middle size header - 5</h3>
+
+</body>
+</html>

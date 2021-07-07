@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* pseduo class */
+        h1{
+            color: royalblue;
+        }
+        /*note:1- we can use hover ,when we pointing an element and we can change the color and its background and many more.  */
+        h1:hover{
+            color: skyblue;
+            background-color: coral;
+            /* padding: 50px;
+            margin: 50px; */
+            /* font-size: 50px; */
+            font-weight: 700;
+        }
+        /* note-2: we can use focus when we try to focusing some text and other things */
+        .middle-person:focus{
+            color: blue;
+            font-weight: 800;
+        }
+
+        /* note-3: when we visited a website then automatically the color will be show what we are putting in our pseduo class. */
+        a:visited{
+            color: yellowgreen;
+        }
+
+        /* button:hover{
+            width: 300px;
+            height: 300px;
+        } */
+        hover:button{
+            width: 300px;
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <h1>this is normal</h1>
+
+    <input type="text">
+    <input class="middle-person" type="text">
+    <input type="text">
+    <br>
+
+    <a href="https://www.google.com">Google</a>
+    <a href="https://github.com/SudiptaAdhikaryJoy">github a jaw</a>
+<br>
+
+    <button>click me</button>
+</body>
+</html>
